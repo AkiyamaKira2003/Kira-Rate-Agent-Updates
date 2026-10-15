@@ -14,7 +14,8 @@ const RELEASE = path.join(ROOT, "release.json");
 const ALLOWED = ["server.mjs", "market-pulse.mjs", "agent-updater.mjs"];
 const KEY = "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAJW70LBa87lLl6GyzyL0wX2ccO3Qj4uS/3CZ2f6mQIv0=\n-----END PUBLIC KEY-----";
 const COMMAND = process.argv[2] || "check";
-const DEFAULT_URL = "https://kiralc.io.vn/agent-updates/stable.json";
+// Single canonical update channel: signed manifest published to GitHub.
+const DEFAULT_URL = "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/stable.json";
 
 async function readJson(file, fallback = null) { try { return JSON.parse(await fs.readFile(file, "utf8")); } catch { return fallback; } }
 async function writeJson(file, data) {
@@ -34,7 +35,10 @@ async function loadConfig() {
 }
 function safeUrl(raw, env) {
   const url = new URL(raw);
-  const production = url.protocol === "https:" && url.hostname === "kiralc.io.vn" && !url.port && url.pathname.startsWith("/agent-updates/");
+  const production = url.protocol === "https:" &&
+    url.hostname === "raw.githubusercontent.com" && !url.port &&
+    url.pathname.startsWith("/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/") &&
+    !url.search && !url.hash;
   const test = env.UPDATE_ALLOW_LOCAL_TEST === "1" && url.protocol === "http:" && ["localhost", "127.0.0.1"].includes(url.hostname);
   if ((!production && !test) || url.username || url.password) throw Error("update_url_not_allowlisted");
   return url.toString();

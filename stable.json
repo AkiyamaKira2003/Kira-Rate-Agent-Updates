@@ -15,9 +15,9 @@
     },
     {
       "name": "agent-updater.mjs",
-      "sha256": "d5a26fbedf00655654f06d45aa2e8ae2acb0e306fa2a49ba81603fe7261a1cbf",
+      "sha256": "6f73e217a89a3b7cdd964f716156f30300cb5eb965ab9ee073cbdcdc7772d57f",
       "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v31/agent-updater.mjs"
     }
   ],
-  "signature": "qqYmU8JuvBqUDVhjIY8OZvjvWs5LF9fXaL06xo5p1Vz7vh0LQaoUoSOBwc8ItDakL0TzmW6O1fIBXqY9dNsICA=="
+  "signature": "HxLRu2GosaUpT/jpF4ZE2GySvATXSBai6BK41Bd2lgYUeM4x3Ql5+m9ZQJQShN0ks0KMPmGhnQH8Fwo6sXQKAA=="
 }
