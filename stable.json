@@ -1,0 +1,23 @@
+{
+  "channel": "stable",
+  "releaseNumber": 31,
+  "version": "2026-10-15.31-market-pulse",
+  "files": [
+    {
+      "name": "server.mjs",
+      "sha256": "de7525efe7ecc09e299709776562abfe57b80c9338cdce4f3f3e2e996d76d0e1",
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v31/server.mjs"
+    },
+    {
+      "name": "market-pulse.mjs",
+      "sha256": "5949b4f8dd41888dc4c40740253d9169387b46374791ca4ea2a089a0d3e09a24",
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v31/market-pulse.mjs"
+    },
+    {
+      "name": "agent-updater.mjs",
+      "sha256": "d5a26fbedf00655654f06d45aa2e8ae2acb0e306fa2a49ba81603fe7261a1cbf",
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v31/agent-updater.mjs"
+    }
+  ],
+  "signature": "qqYmU8JuvBqUDVhjIY8OZvjvWs5LF9fXaL06xo5p1Vz7vh0LQaoUoSOBwc8ItDakL0TzmW6O1fIBXqY9dNsICA=="
+}
