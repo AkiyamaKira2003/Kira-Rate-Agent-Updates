@@ -1,23 +1,23 @@
 {
   "channel": "stable",
-  "releaseNumber": 31,
-  "version": "2026-10-15.31-market-pulse",
+  "releaseNumber": 32,
+  "version": "2026-10-16.32-listing-quantity",
   "files": [
     {
       "name": "server.mjs",
-      "sha256": "de7525efe7ecc09e299709776562abfe57b80c9338cdce4f3f3e2e996d76d0e1",
-      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v31/server.mjs"
+      "sha256": "1b7ecb50cbca8d91e221f6d92db9c02bceb6aef88f3d6944ca1b30b110f4a59c",
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v32/server.mjs"
     },
     {
       "name": "market-pulse.mjs",
-      "sha256": "5949b4f8dd41888dc4c40740253d9169387b46374791ca4ea2a089a0d3e09a24",
-      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v31/market-pulse.mjs"
+      "sha256": "e239292c0fa7bc8cb5e1712f6a890faa5972e3fe31c59d35665d5e9931fae4a5",
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v32/market-pulse.mjs"
     },
     {
       "name": "agent-updater.mjs",
       "sha256": "6f73e217a89a3b7cdd964f716156f30300cb5eb965ab9ee073cbdcdc7772d57f",
-      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v31/agent-updater.mjs"
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v32/agent-updater.mjs"
     }
   ],
-  "signature": "HxLRu2GosaUpT/jpF4ZE2GySvATXSBai6BK41Bd2lgYUeM4x3Ql5+m9ZQJQShN0ks0KMPmGhnQH8Fwo6sXQKAA=="
+  "signature": "TqEiqeuQavsLebQQNMiBLPadNrFiZnkUc/+zPjoCnH/Octyl5m9/o0R6g+yH598N64H9MkAPZH40wcy1TL73DA=="
 }
