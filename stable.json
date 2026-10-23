@@ -1,23 +1,23 @@
 {
   "channel": "stable",
-  "releaseNumber": 35,
-  "version": "2026-10-20.35-precomputed-rates",
+  "releaseNumber": 36,
+  "version": "2026-10-23.36-sealm2-rates",
   "files": [
     {
       "name": "server.mjs",
-      "sha256": "0334ed539a50a492d5de6f60b0ef57b4f54ffd79469ebeb9c14a2ede098f2645",
-      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v35/server.mjs"
+      "sha256": "68e351a10fb46c1944cea3cefc78861ecfa340b9d89f41e15ecc4751d7d2262e",
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v36/server.mjs"
     },
     {
       "name": "market-pulse.mjs",
-      "sha256": "ca87fb3e3e3d9530febd8e59f1a307ede06bd737fa13cba29d90fe6b04ce7961",
-      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v35/market-pulse.mjs"
+      "sha256": "d2a4d352c800753233b556976aefb45ede7649174f122a4d0683f0859edaa7e8",
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v36/market-pulse.mjs"
     },
     {
       "name": "agent-updater.mjs",
       "sha256": "6f73e217a89a3b7cdd964f716156f30300cb5eb965ab9ee073cbdcdc7772d57f",
-      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v35/agent-updater.mjs"
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v36/agent-updater.mjs"
     }
   ],
-  "signature": "fScUPSg8BgBXPmnFpapU2GOVupIIjfvKAQmZW6CcZDBsnz6rCr0zTEMVhA15VqfO09vx2ViM9i6y3Y97znkxCw=="
+  "signature": "s3rVjGIeNgRRVacsMa7VdgI32It9mnriHC7hS4ka7vky+MHpjSB9EDA0PH8DmgKNgo8QkYOdxMNceGB+6XbZBA=="
 }
