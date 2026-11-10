@@ -1,23 +1,23 @@
 {
   "channel": "stable",
-  "releaseNumber": 41,
-  "version": "2026-11-10.41-maple-earth",
+  "releaseNumber": 42,
+  "version": "2026-11-10.42-maple-world-source-guard",
   "files": [
     {
       "name": "server.mjs",
-      "sha256": "857fe575cdcf2a262d375c96d2f5f87e4d17e46c703ce25c040a247888c3b955",
-      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v41/server.mjs"
+      "sha256": "b46517f4e1fef6a1675d676cbdcc90de723b51ed3b1ee5c55c07aeb3f8989fe2",
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v42/server.mjs"
     },
     {
       "name": "market-pulse.mjs",
-      "sha256": "144d4343eb27197cdd4c3c9213e7bca3a711e94577080480a33c8090a31c3b88",
-      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v41/market-pulse.mjs"
+      "sha256": "a55e1ab0ae93ae4ec9950423a7df369081d5ef4909c74da0aec62e9e27cb2b32",
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v42/market-pulse.mjs"
     },
     {
       "name": "agent-updater.mjs",
       "sha256": "6f73e217a89a3b7cdd964f716156f30300cb5eb965ab9ee073cbdcdc7772d57f",
-      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v41/agent-updater.mjs"
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v42/agent-updater.mjs"
     }
   ],
-  "signature": "pmOCmJn3S8ANpkWhzvMLZXfc7s12dmigRr2Dg0VGNbo/Rv+AScGk6s8e7In/Pp2kqB/UfZlFynYsju5weDrdCg=="
+  "signature": "yYebzTflSXkIZJvvqMy+r54T4GFlsMyvQ6th1mpYlwhBXtFtn6bcoO9fN61PNZDAGoNDFqWBcqYLLdzx0QIMDA=="
 }
