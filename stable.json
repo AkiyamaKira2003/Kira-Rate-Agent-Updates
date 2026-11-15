@@ -1,23 +1,23 @@
 {
   "channel": "stable",
-  "releaseNumber": 44,
-  "version": "2026-11-15.44-lineagem-adaptive-rate-pagination",
+  "releaseNumber": 45,
+  "version": "2026-11-15.45-lineagem-shard-fallback",
   "files": [
     {
       "name": "server.mjs",
-      "sha256": "0960473540d7201b0bb0779c3f635ee03f5a3601bd0410cfc461b11fd0958b89",
-      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v44/server.mjs"
+      "sha256": "91e07ddf6294e8d696c8f36c4f87dfed61495ba753fb3612e7ad325782d585cd",
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v45/server.mjs"
     },
     {
       "name": "market-pulse.mjs",
       "sha256": "d8dc7a8183168da7b3c4ce56feb5051cc7e666db4b02b3f469063f28a8cc0e90",
-      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v44/market-pulse.mjs"
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v45/market-pulse.mjs"
     },
     {
       "name": "agent-updater.mjs",
       "sha256": "6f73e217a89a3b7cdd964f716156f30300cb5eb965ab9ee073cbdcdc7772d57f",
-      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v44/agent-updater.mjs"
+      "url": "https://raw.githubusercontent.com/AkiyamaKira2003/Kira-Rate-Agent-Updates/main/v45/agent-updater.mjs"
     }
   ],
-  "signature": "km9TMX9wXiTxXTXW6d/Q7v135IDJifjWaSYoIc2zVw4b3QmXpQ3gaj+MULGTKh2QJ/azQ1EpG5SmuW1u/38uAg=="
+  "signature": "vMi3q7yseddZGS6I1zzU1QYiSX1o3lNxJM+FZ0DPAY75Xpd9f8tJX7r/teHx3fU28VbIDQ+W1gh5qfgm8RmKBA=="
 }
