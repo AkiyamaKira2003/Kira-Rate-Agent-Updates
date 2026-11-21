@@ -18,6 +18,16 @@ key**, the same canonical JSON field order as the shipped updater, the exact
 three-module allowlist and release URLs, SHA-256 of each committed module,
 and that the release directory contains no extra tracked files.
 
+Also run **node --test tests/updater-lifecycle.test.mjs** to exercise the
+actual signed updater in a newly created, automatically removed **temporary
+agent root**. This tests application of staged signed modules, rollback to
+byte-identical synthetic previous files, successful confirmation, and
+fail-closed behavior for altered staged bytes or signed metadata. The test
+runs the updater's local file-handling commands but does not start the actual
+Agent server or market collector, contact update servers, modify user settings,
+or use a signing key. GitHub Actions runs these integration tests on both
+Ubuntu and Windows.
+
 The verifier uses **Git blob bytes from HEAD** rather than working-tree
 bytes: Windows may change LF to CRLF on checkout, making hashes computed
 from local files disagree with the signed manifest. The .gitattributes file
@@ -31,3 +41,6 @@ system, artifact provenance attestation, or independent proof that signing
 keys were never compromised. To update the trusted public key, coordinate
 a separate verified key-rotation process; do not silently copy a new key
 from an untrusted release. Never put private keys or production data here.
+The isolated lifecycle checks are not a live Agent deployment test or proof
+of behavior under power loss, concurrent updates, or production filesystem
+permissions.
