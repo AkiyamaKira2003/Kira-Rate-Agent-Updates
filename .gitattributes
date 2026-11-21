@@ -1,0 +1,4 @@
+# Signed release SHA-256 hashes refer to LF bytes in Git and GitHub raw content.
+# Do not rewrite JavaScript or JSON to CRLF when checking out on Windows.
+*.mjs text eol=lf
+*.json text eol=lf
