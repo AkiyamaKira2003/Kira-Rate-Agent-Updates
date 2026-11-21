@@ -28,3 +28,5 @@ jobs:
         run: node --test tests/verify-release.test.mjs
       - name: Verify signed manifest and all committed release files
         run: node scripts/verify-release.mjs
+      - name: Exercise isolated updater apply, rollback and confirm lifecycle
+        run: node --test tests/updater-lifecycle.test.mjs
